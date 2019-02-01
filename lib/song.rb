@@ -1,7 +1,7 @@
 require 'pry'
 class Song
   
-  attr_accessor :name, :artist
+  attr_accessor :artist
   
   def initialize(name)
     @name = name
@@ -16,6 +16,9 @@ class Song
   
   end
   
+  def name
+    @name
+  emd
   def name=(name)
     self.artist = Artist.find_or_create_by_name(name)
     artist.add_song(self)
