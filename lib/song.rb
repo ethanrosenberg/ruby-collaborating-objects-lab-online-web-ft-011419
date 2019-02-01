@@ -11,6 +11,7 @@ class Song
   instance = file_name.split(" - ")
   newsong = self.new(instance[1])
   newsong.artist = instance[0]
+  binding.pry
   return newsong
   end
   
