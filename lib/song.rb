@@ -15,7 +15,9 @@ class Song
   return newsong
   end
   
-  def artist_name=
+  def artist_name=(name)
+    self.artist = Artist.find_or_create_by_name(name)
+  end
 
   
 end
