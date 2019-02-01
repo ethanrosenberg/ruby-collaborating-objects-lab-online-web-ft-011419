@@ -8,6 +8,7 @@ class Song
   
   def self.new_by_filename(file_name)
   instance = self.new(file_name)
+  instance
   end
   
 end
