@@ -12,8 +12,6 @@ class Song
   newsong = self.new(instance[1])
   newsong.artist = instance[0]
   return newsong
-  
-  
   end
   
   def name=(name)
