@@ -25,6 +25,7 @@ class MP3Importer
   end
   
   def self.new_by_filename(file_name)
-    s
+  
+end
   
 end
