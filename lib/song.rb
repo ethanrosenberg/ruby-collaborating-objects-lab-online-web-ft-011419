@@ -15,6 +15,7 @@ class Song
   return newsong
   end
   
+  def artist_name=
 
   
 end
