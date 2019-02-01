@@ -34,4 +34,6 @@ class Artist
       return newartist
     end
   end
+  
+  
 end
