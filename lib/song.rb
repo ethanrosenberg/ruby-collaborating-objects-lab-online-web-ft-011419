@@ -1,7 +1,7 @@
 require 'pry'
 class Song
   
-  attr_accessor :artist
+  attr_accessor :artist, :name
   
   def initialize(name)
     @name = name
@@ -15,12 +15,6 @@ class Song
   return newsong
   end
   
-  def name=(name)
-    @name = name
-  end
-  
-  def name
-    @name
-  end
+
   
 end
